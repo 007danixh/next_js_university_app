@@ -20,11 +20,11 @@ const IndexPage = () => {
       <SearchBar onSearch={handleSearch} />
       
       {/* Render the search results */}
-      <ul>
+      {/* <ul>
         {searchResults.map((result) => (
           <li key={result.name}>{result.name}</li>
         ))}
-      </ul>
+      </ul> */}
     </Container>
   );
 };
