@@ -38,13 +38,6 @@
     "eslint-config-next": "13.5.3",
     "jest-environment-jsdom": "^29.7.0",
     "ts-jest": "^29.1.1"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest",
-      "^.+\\.jsx?$": "babel-jest"
-    },
-    "preset": "ts-jest",
-    "testEnvironment": "jsdom"
   }
+
 }
